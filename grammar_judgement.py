@@ -4,11 +4,15 @@ import re
 iinput_text =input("文字を入力してください。")
 
 text =nltk.word_tokenize(str(iinput_text))
-#第一文型の判定の文
+
 tag_text =nltk.pos_tag(text)
-#主語の判定名詞と代名詞
-#主語が一語の場合
-#名詞と代名詞でサーチ
+"""
+    第一文型の判定
+
+    NN:名詞
+    PRP:代名詞
+    DT:限定詞
+"""
 if re.search('(NN|NNP|NNS|PRP|DT)',tag_text[0][1]):
     print('S:主語')
     if re.search('VB|VB',tag_text[1][1]):
