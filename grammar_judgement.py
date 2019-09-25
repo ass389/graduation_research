@@ -8,22 +8,41 @@ text =nltk.word_tokenize(str(iinput_text))
 tag_text =nltk.pos_tag(text)
 """
     第一文型の判定
-
+    1語の場合
     NN:名詞
     PRP:代名詞
     DT:限定詞
+    There+is/are
+
+    2語の場合
+    The+形容詞
+    The+名詞
+    To不定詞
+    動名詞
+
+    動詞の判定
+
 """
 if re.search('(NN|NNP|NNS|PRP|DT)',tag_text[0][1]):
     print('S:主語')
-    if re.search('VB|VB',tag_text[1][1]):
+    if re.search('VB|VBN',tag_text[1][1]):
         print('V:動詞')
-#主語が二語の場合
-#所有格の代名詞+名詞or限定詞+名詞
-elif re.search('PRP$',tag_text[0][1]):
+#2語の場合
+elif re.search('(PRP$|DT)',tag_text[0][1])and re.search('(NN|JJ)'):
     print('S:主語')
+    if re.search('VB|VB'):
+        print('V:動詞')
+elif re.search('To',text[0][1])and re.search('VB|VBN'):
+    print('S:主語')
+    if re.search('VB|VBN'):
+        print('V:動詞')
+elif re.search('VG|VN',tag_text[0][1])+re.search('',tag_text[1][1]):
+    print('S:主語')
+    if re.search('VB|VBN'):
+        print('V:動詞')
 
-#主語が三語の場合
+#主語が3語以上の場合
 
 
-print('品詞',nltk.pos_tag(text))
+print('',nltk.pos_tag(text))
 print('文型',)
