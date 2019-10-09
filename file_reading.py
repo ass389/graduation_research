@@ -1,8 +1,6 @@
 import nltk
 import re
 
-
-
 """
     第一文型の判定
     1語の場合
@@ -17,29 +15,29 @@ import re
     To不定詞
     動名詞
 
+    動詞の判定
 
 """
 def judgemnt(text):
     sentence_p=[]
     sentence= ''
-    if re.search('(NN.|PRP|DT|EX)',text[0][1]):
+    if re.search('(NN|NNP|NNS|PRP|DT)',text[0][1]):
         sentence_p.append('S')
-        if re.search('VB|VB.',text[1][1]):
+        if re.search('VB|VBN',text[1][1]):
             sentence_p.append('V')
             print(sentence_p)
-
     #2語の場合
-    elif re.search('(PRP$|DT)',text[0][1])and re.search('(NN.|JJ.)',text[1][1]):
+    elif re.search('(PRP$|DT)',text[0][1])and re.search('(NN|JJ)'):
         sentence_p.append('S')
-        if re.search('VB|VB.',text[2][1]):
+        if re.search('VB|VB'):
             sentence_p.append('V')
-    elif re.search('To',text[0][1])and re.search('VB|VB.',text[1][1]):
+    elif re.search('To',text[0][1])and re.search('VB|VBN'):
         sentence_p.append('S')
-        if re.search('VB|VB.',text[2][1]):
+        if re.search('VB|VBN'):
             sentence_p.append('V')
-    elif re.search('(VG|VN)',text[0][1])and re.search('(NN|NNP)',text[1][1]):
+    elif re.search('VG|VN',text[0][1])+re.search('NN|NNP|',text[1][1]):
         sentence_p.append('S')
-        if re.search('VB|VB.',text[2][1]):
+        if re.search('VB|VBN'):
             sentence_p.append('V')
 
     #主語が3語以上の場合
@@ -53,18 +51,13 @@ def judgemnt(text):
 
 
 f =open("test.txt",'r')
-grammar =r"""
-   NP: {<DT|JJ|NN.*>+}
-   PP: {}
-   VP:
-   CLAUSE:
-"""
-for line in f:
-    input_text =line
-    text =nltk.word_tokenize(str(input_text))
-    print(text)
-    tag_text =nltk.pos_tag(text)
-    sentence =''
-    sentence =judgemnt(tag_text)
-    print('トークン化した文章:',nltk.pos_tag(text))
-    print('文型:',sentence)
+
+input_text =input('文字列を入力してください')
+text =nltk.word_tokenize(str(input_text))
+print(text)
+tag_text =nltk.pos_tag(text)
+sentence =''
+print(tag_text)
+sentence =judgemnt(tag_text)
+print('トークン化した文章:',nltk.pos_tag(text))
+print('文型:',sentence)

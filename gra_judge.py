@@ -1,6 +1,6 @@
 import nltk
 import re
-
+import pprint
 
 
 """
@@ -51,16 +51,15 @@ def judgemnt(text):
         else:
             return 0
 
+#大量のテキストを分割して、単語ごとにわけ、品詞タグ付けを行う関数
+def ie_preprocess(document):
+    sentences =nltk.sent_tokenize(document)
+    sentence = [nltk.word_tokenize(sent) for sent in sentences]
+    sentences =[nltk.pos_tag(sent) for sent in sentences]
 
 f =open("test.txt",'r')
-grammar =r"""
-   NP: {<DT|JJ|NN.*>+}
-   PP: {}
-   VP:
-   CLAUSE:
-"""
 for line in f:
-    input_text =line
+    input_text =input("文章を読み込む")
     text =nltk.word_tokenize(str(input_text))
     print(text)
     tag_text =nltk.pos_tag(text)
