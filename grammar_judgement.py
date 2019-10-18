@@ -26,7 +26,10 @@ def judgemnt(text):
         sentence_p.append('S')
         if re.search('VB|VB.',text[1][1]):
             sentence_p.append('V')
-            print(sentence_p)
+            if re.search('NN|JJ',text[2][1]):
+                sentence_p.append('C')
+            elif re.search('NN.|',text[2][1]):
+                sentence_p.append('O')
 
     #2語の場合
     elif re.search('(PRP$|DT)',text[0][1])and re.search('(NN.|JJ.)',text[1][1]):
@@ -37,6 +40,10 @@ def judgemnt(text):
         sentence_p.append('S')
         if re.search('VB|VB.',text[2][1]):
             sentence_p.append('V')
+            if re.search('NN.|JJ',text[3][1]):
+                sentence_p.append('C')
+            elif re.search('NN|PRP',text[3][1]):
+                sentence_p.append('O')
     elif re.search('(VG|VN)',text[0][1])and re.search('(NN|NNP)',text[1][1]):
         sentence_p.append('S')
         if re.search('VB|VB.',text[2][1]):
@@ -48,8 +55,19 @@ def judgemnt(text):
         if re.search('S',sentence_p[0]) and re.search('V',sentence_p[1]):
             sentence ='第一文型'
             return sentence
-        else:
-            return 0
+        elif re.search('S',sentence_p[0]) and re.search('V',sentence_p[1]) and re.search('C',sentence_p[2]):
+            sentence ='第二文型'
+            return sentence
+        elif re.search('S',sentence_p[0]) and re.search('V',sentence_p[1]) and re.search('O',sentence_p[2]):
+            sentence ='第三文型'
+            return sentence
+        elif re.search('S',sentence_p[0]) and re.search('V',sentence_p[1]) and re.search('O',sentence_p[2]) and re.search('O',sentence_p[3]):
+            sentence ='第四文型'
+            return sentence
+        elif re.search('S',sentence_p[0]) and re.search('V',sentence_p[1]) and re.search('O',sentence_p[2]) and re.search('C',sentence_p[3]):
+            sentence ='第5文型'
+            return sentence
+
 
 
 f =open("test.txt",'r')
