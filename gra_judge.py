@@ -93,6 +93,14 @@ def ie_preprocess(document):
     sentence = [nltk.word_tokenize(sent) for sent in sentences]
     sentences =[nltk.pos_tag(sent) for sent in sentences]
 
+#チャンカの作成
+grammer = r"""
+   NP: {<DT|JJ|NN.*>+}
+   PP: {<IN><NP>}
+   VP: {<VB.*><NP|PP|CLAUSE>+$}
+   CLAUSE: {<NP><VP>}
+"""
+
 f =open("test2.txt",'r')
 
 input_text =input('文字を入力')
