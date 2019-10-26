@@ -17,35 +17,28 @@ import pprint
     To不定詞
     動名詞
 
-
 """
 def judgemnt(text):
     sentence_p=[]
     sentence= ''
-    if re.search('(NN.|PRP|DT|EX)',text[0][1]):
+    if re.search('(NN.?|PRP|DT|EX)',text[0][1]):
         sentence_p.append('S')
         #第二文型
-        if re.search('(be|keep|get|look|seem|feel|smell|taste)',text[1][0])and re.search('VB.|VB',text[1][1]):
+        if re.search('VB.|VB',text[1][1]):
             sentence_p.append('V')
-            if re.search('NN.?|JJ.?',text[2][1]):
+            if re.search('JJ.?',text[2][1]):
                 sentence_p.append('C')
         #第三文型
-        elif re.search('VB?',text[1][1]):
-            sentence_p.append('V')
-            if re.search('NN?|PRP?',text[2][1]):
+            elif re.search('NN.?',text[2][1]):
                 sentence_p.append('O')
-                print('第三文型')
-        #第四文型
-        elif re.search('give|lend|buy|make|cook',text[1][0])and re.search('VB?',text[1][1]):
-            sentence_p.append('V')
-            if re.search('NN.?|PRP.?',text[2][1]):
-                sentence_p.append('O')
+                #第四文型
                 if re.search('NN.?',text[3][1]):
                     sentence_p.append('O')
-        elif re.search('make|keep|paint|call|name|find',text[1][0])and re.search('VB?',text[1][1]):
-            sentence_p.append('V')
-
-
+            #第五文型
+            elif re.search('PRP.?',text[2][1]):
+                sentence_p.append('O')
+                if re.search('JJ.?',text[3][1]):
+                    sentence_p.append('C')
 
 
     #2語の場合
@@ -102,11 +95,11 @@ grammer = r"""
 """
 
 f =open("test2.txt",'r')
-
-input_text =input('文字を入力')
-text =nltk.word_tokenize(str(input_text))
-tag_text =nltk.pos_tag(text)
-sentence =''
-sentence =judgemnt(tag_text)
-print('トークン化した文章:',nltk.pos_tag(text))
-print('文型:',sentence)
+for line in f:
+    input_text =line
+    text =nltk.word_tokenize(str(input_text))
+    tag_text =nltk.pos_tag(text)
+    sentence =''
+    sentence =judgemnt(tag_text)
+    print('トークン化した文章:',nltk.pos_tag(text))
+    print('文型:',sentence)
