@@ -24,39 +24,22 @@ def judgemnt(text):
     if re.search('(NN.?|PRP|DT|EX)',text[0][1]):
         sentence_p.append('S')
         #第二文型
-        if re.search('VB.|VB',text[1][1]):
+        if re.search('VB.?',text[1][1]):
             sentence_p.append('V')
             if re.search('JJ.?',text[2][1]):
                 sentence_p.append('C')
         #第三文型
-            elif re.search('NN.?',text[2][1]):
+            elif re.search('NN.?|PRP.?|VBG',text[2][1]):
                 sentence_p.append('O')
                 #第四文型
                 if re.search('NN.?',text[3][1]):
                     sentence_p.append('O')
             #第五文型
-            elif re.search('PRP.?',text[2][1]):
-                sentence_p.append('O')
-                if re.search('JJ.?',text[3][1]):
+                elif re.search('JJ.?',text[3][1]):
                     sentence_p.append('C')
 
 
-    #2語の場合
-    elif re.search('(PRP$|DT)',text[0][1])and re.search('(NN.|JJ.)',text[1][1]):
-        sentence_p.append('S')
-        #第二文型の場合
-        if re.search('(be|keep|get|look|seem|feel|smell|taste)',text[2][0])and re.search('(VB.)',text[2][1]):
-            sentence_p.append('V')
-            if re.search('JJ',text[3][1]):
-                sentence_p.append('C')
-    elif re.search('To',text[0][1])and re.search('VB|VB.',text[1][1]):
-        sentence_p.append('S')
-        if re.search('VB|VB.',text[2][1]):
-            sentence_p.append('V')
-    elif re.search('(VG|VN)',text[0][1])and re.search('(NN|NNP)',text[1][1]):
-        sentence_p.append('S')
-        if re.search('VB|VB.',text[2][1]):
-            sentence_p.append('V')
+
 
     #主語が3語以上の場合
     #第一文型の出力
@@ -76,7 +59,7 @@ def judgemnt(text):
             sentence ='第四文型'
             return sentence
         elif re.search('S',sentence_p[0]) and re.search('V',sentence_p[1]) and re.search('O',sentence_p[2]) and re.search('C',sentence_p[3]):
-            sentence ='第5文型'
+            sentence ='第五文型'
             return sentence
 
 
