@@ -1,7 +1,9 @@
 import nltk
 import re
 import pprint
+from nltk import Tree
 
+#チャンキングできるように改良
 
 """
     第一文型の判定
@@ -26,7 +28,7 @@ def judgemnt(text):
         #第二文型
         if re.search('VB.?',text[1][1]):
             sentence_p.append('V')
-            if re.search('JJ.?',text[2][1]):
+            if re.search('JJ.?',text[3][1]):
                 sentence_p.append('C')
         #第三文型
             elif re.search('NN.?|PRP.?|VBG',text[2][1]):
@@ -37,11 +39,51 @@ def judgemnt(text):
             #第五文型
                 elif re.search('JJ.?',text[3][1]):
                     sentence_p.append('C')
+        elif re.search('MD|VB.?',text[1][1]) and re.search('VB.?',text[2][1]):
+            sentence_p.append('V')
+            #第二文型
+            if re.search('JJ.?',text[3][1]):
+                sentence_p.append('C')
+        #第三文型
+            elif re.search('NN.?|PRP.?|VBG',text[3][1]):
+                sentence_p.append('O')
+                #第四文型
+                if re.search('NN.?',text[4][1]):
+                    sentence_p.append('O')
+            #第五文型
+                elif re.search('JJ.?',text[4][1]):
+                    sentence_p.append('C')
 
+    #第２文の場合
+    elif re.search('DT|TO|PRP.?',text[0][1]) and re.search('JJ|NN.?|VB.?',text[1][1]):
+        sentence_p.append('S')
+        if re.search('VB.?',text[2][1]):
+            sentence_p.append('V')
+            if re.search('JJ.?',text[3][1]):
+                sentence_p.append('C')
+        #第三文型
+            elif re.search('NN.?|PRP.?|VBG',text[3][1]):
+                sentence_p.append('O')
+                #第四文型
+                if re.search('NN.?',text[4][1]):
+                    sentence_p.append('O')
+            #第五文型
+                elif re.search('JJ.?',text[4][1]):
+                    sentence_p.append('C')
+        elif re.search('MD|VB.?',text[2][1]) and re.search('VB.?',text[3][1]):
+            sentence_p.append('V')
+            if re.search('JJ.?',text[4][1]):
+                sentence_p.append('C')
+        #第三文型
+            elif re.search('NN.?|PRP.?|VBG',text[4][1]):
+                sentence_p.append('O')
+                #第四文型
+                if re.search('NN.?',text[5][1]):
+                    sentence_p.append('O')
+            #第五文型
+                elif re.search('JJ.?',text[5][1]):
+                    sentence_p.append('C')
 
-
-
-    #主語が3語以上の場合
     #第一文型の出力
     if len(sentence_p) == 2:
         if re.search('S',sentence_p[0]) and re.search('V',sentence_p[1]):
@@ -70,19 +112,24 @@ def ie_preprocess(document):
     sentences =[nltk.pos_tag(sent) for sent in sentences]
 
 #チャンカの作成
-grammer = r"""
-   NP: {<DT|JJ|NN.*>+}
-   PP: {<IN><NP>}
-   VP: {<VB.*><NP|PP|CLAUSE>+$}
-   CLAUSE: {<NP><VP>}
+grammar = r"""
+NP: {<PRP.|DT|JJ|NN.*>+}
+PP: {<IN><NP>}
+VP: {<VB.*><NP|PP|CLAUSE>+$}
+CLAUSE: {<NP><VP>}
 """
 
-f =open("test2.txt",'r')
+
+f =open("test.txt",'r')
 for line in f:
     input_text =line
     text =nltk.word_tokenize(str(input_text))
     tag_text =nltk.pos_tag(text)
     sentence =''
+    # cp =nltk.RegexpParser(grammar,loop=2)
+    # result = cp.parse(tag_text)
+    # t =nltk.Tree.fromstring(str(result))
     sentence =judgemnt(tag_text)
-    print('トークン化した文章:',nltk.pos_tag(text))
-    print('文型:',sentence)
+    # print('トークン化した文章:',nltk.pos_tag(text))
+    # print('文型:',sentence)
+    print(sentence)
