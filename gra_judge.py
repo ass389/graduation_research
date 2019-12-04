@@ -24,9 +24,9 @@ def judgemnt(text):
     sentence_p=[]
     sentence= ''
     #第二語の場合
-    if re.search('DT|TO|PRP.?',text[0][1]) and re.search('JJ|NN.?',text[1][1]):
+    if re.search('DT|TO|PRP.?',text[0][1]) and re.search('JJ|NN.?|VB.?',text[1][1]):
         sentence_p.append('S')
-        print('sにしました')
+
         if re.search('VB.?',text[2][1]):
             sentence_p.append('V')
             if re.search('JJ.?',text[3][1]):
@@ -113,15 +113,6 @@ def ie_preprocess(document):
     sentences =nltk.sent_tokenize(document)
     sentence = [nltk.word_tokenize(sent) for sent in sentences]
     sentences =[nltk.pos_tag(sent) for sent in sentences]
-
-#チャンカの作成
-grammar = r"""
-NP: {<PRP.|DT|JJ|NN.*>+}
-PP: {<IN><NP>}
-VP: {<VB.*><NP|PP|CLAUSE>+$}
-CLAUSE: {<NP><VP>}
-"""
-
 
 f =open("test.txt",'r')
 for line in f:
