@@ -1,0 +1,142 @@
+[('Mum', 'NNP'), ('and', 'CC'), ('Dad', 'NNP'), ('went', 'VBD'), ('camping', 'VBG'), ('.', '.')]
+•¶Œ^:None
+[('They', 'PRP'), ('went', 'VBD'), ('to', 'TO'), ('a', 'DT'), ('farm', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('Mr', 'NNP'), ('Jones', 'NNP'), ('Laughed', 'NNP'), ('.', '.')]
+•¶Œ^:None
+[('Nobody', 'NN'), ('could', 'MD'), ('sleep', 'VB'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('Everyone', 'NN'), ('had', 'VBD'), ('to', 'TO'), ('get', 'VB'), ('up', 'RP'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('She', 'PRP'), ('got', 'VBD'), ('in', 'IN'), ('the', 'DT'), ('car', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('The', 'DT'), ('wind', 'NN'), ('blew', 'VBD'), ('a', 'DT'), ('big', 'JJ'), ('tree', 'NN'), ('down', 'RP'), ('.', '.')]
+•¶Œ^:‘æ“ñ•¶Œ^
+[('Mr', 'NNP'), ('Jones', 'NNP'), ('called', 'VBD'), ('for', 'IN'), ('help', 'NN'), ('.', '.')]
+•¶Œ^:None
+[('They', 'PRP'), ('put', 'VBP'), ('stones', 'NNS'), ('on', 'IN'), ('the', 'DT'), ('bags', 'NNS'), ('.', '.')]
+•¶Œ^:‘æŽO•¶Œ^
+[('It', 'PRP'), ('landed', 'VBD'), ('near', 'IN'), ('the', 'DT'), ('cross', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('She', 'PRP'), ('was', 'VBD'), ('laughing', 'VBG'), ('.', '.')]
+•¶Œ^:‘æŽO•¶Œ^
+[('Evryone', 'NN'), ('looked', 'VBD'), ('at', 'IN'), ('the', 'DT'), ('baby', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('Chip', 'NNP'), ('had', 'VBD'), ('a', 'DT'), ('new', 'JJ'), ('book', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('The', 'DT'), ('magic', 'JJ'), ('key', 'NN'), ('began', 'VBD'), ('to', 'TO'), ('glow', 'VB'), ('.', '.')]
+•¶Œ^:None
+[('The', 'DT'), ('children', 'NNS'), ('were', 'VBD'), ('in', 'IN'), ('a', 'DT'), ('village', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('The', 'DT'), ('king', 'NN'), ('was', 'VBD'), ('in', 'IN'), ('the', 'DT'), ('village', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('So', 'RB'), ('Chip', 'NNP'), ('went', 'VBD'), ('on', 'IN'), ('and', 'CC'), ('everyone', 'NN'), ('was', 'VBD'), ('pleased', 'JJ')]
+•¶Œ^:None
+[('The', 'DT'), ('next', 'JJ'), ('day', 'NN'), ('they', 'PRP'), ('went', 'VBD'), ('shopping', 'NN'), ('.', '.')]
+•¶Œ^:None
+[('They', 'PRP'), ('could', 'MD'), ('swim', 'VB'), ('under', 'IN'), ('water', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('They', 'PRP'), ('blew', 'VBD'), ('bubbles', 'NNS'), ('at', 'IN'), ('the', 'DT'), ('octopus', 'NN'), ('.', '.')]
+•¶Œ^:‘æŽO•¶Œ^
+[('Nadim', 'RB'), ('wanted', 'VBD'), ('to', 'TO'), ('look', 'VB'), ('inside', 'IN'), ('the', 'DT'), ('rocket', 'NN'), ('.', '.')]
+•¶Œ^:None
+[('They', 'PRP'), ('went', 'VBD'), ('inside', 'IN'), ('the', 'DT'), ('rocket', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('Just', 'RB'), ('then', 'RB'), ('the', 'DT'), ('magic', 'JJ'), ('key', 'NN'), ('began', 'VBD'), ('to', 'TO'), ('glow', 'VB'), ('.', '.')]
+•¶Œ^:None
+[('He', 'PRP'), ('looked', 'VBD'), ('at', 'IN'), ('the', 'DT'), ('little', 'JJ'), ('apaceunit', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('The', 'DT'), ('joke', 'NN'), ('were', 'VBD'), ('new', 'JJ'), ('.', '.')]
+•¶Œ^:‘æ“ñ•¶Œ^
+[('It', 'PRP'), ('was', 'VBD'), ('hard', 'JJ'), ('for', 'IN'), ('Chip', 'NNP'), ('to', 'TO'), ('swim', 'VB'), ('the', 'DT'), ('ten', 'JJ'), ('lengths', 'NNS'), ('.', '.')]
+•¶Œ^:‘æ“ñ•¶Œ^
+[('Mrs', 'NNP'), ('May', 'NNP'), ('was', 'VBD'), ('very', 'RB'), ('pleased', 'JJ'), ('.', '.')]
+•¶Œ^:None
+[('The', 'DT'), ('children', 'NNS'), ('were', 'VBD'), ('pleased', 'JJ'), ('too', 'RB'), ('.', '.')]
+•¶Œ^:‘æ“ñ•¶Œ^
+[('Mum', 'NNP'), ('and', 'CC'), ('Dad', 'NNP'), ('were', 'VBD'), ('very', 'RB'), ('pleased', 'JJ'), ('too', 'RB'), ('.', '.')]
+•¶Œ^:None
+[('He', 'PRP'), ('was', 'VBD'), ('good', 'JJ'), ('at', 'IN'), ('the', 'DT'), ('game', 'NN'), ('.', '.')]
+•¶Œ^:‘æ“ñ•¶Œ^
+[('The', 'DT'), ('carpet', 'NN'), ('looked', 'VBD'), ('beautiful', 'JJ'), ('.', '.')]
+•¶Œ^:‘æ“ñ•¶Œ^
+[('She', 'PRP'), ('told', 'VBD'), ('them', 'PRP'), ('her', 'PRP$'), ('son', 'NN'), ('was', 'VBD'), ('free', 'JJ'), ('.', '.')]
+•¶Œ^:‘æŽO•¶Œ^
+[('They', 'PRP'), ('took', 'VBD'), ('the', 'DT'), ('children', 'NNS'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('They', 'PRP'), ('put', 'VBD'), ('it', 'PRP'), ('up', 'RP'), ('.', '.')]
+•¶Œ^:‘æŽO•¶Œ^
+[('Mum', 'NNP'), ('and', 'CC'), ('Dad', 'NNP'), ('had', 'VBD'), ('a', 'DT'), ('new', 'JJ'), ('tent', 'NN'), ('.', '.')]
+•¶Œ^:None
+[('Wilma', 'NNP'), ('got', 'VBD'), ('some', 'DT'), ('water', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('Mr', 'NNP'), ('Jones', 'NNP'), ('was', 'VBD'), ('the', 'DT'), ('farmer', 'NN'), ('.', '.')]
+•¶Œ^:None
+[('He', 'PRP'), ('had', 'VBD'), ('to', 'TO'), ('milk', 'VB'), ('the', 'DT'), ('cows', 'NNS'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('Mum', 'NNP'), ('wanted', 'VBD'), ('some', 'DT'), ('milk', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('She', 'PRP'), ('was', 'VBD'), ('expecting', 'VBG'), ('it', 'PRP'), ('soon', 'RB'), ('.', '.')]
+•¶Œ^:‘æŽO•¶Œ^
+[('Dad', 'NNP'), ('cooked', 'VBD'), ('supper', 'NN'), ('.', '.')]
+•¶Œ^:‘æŽO•¶Œ^
+[('The', 'DT'), ('wind', 'NN'), ('blew', 'VBD'), ('the', 'DT'), ('tent', 'NN'), ('down', 'RP'), ('.', '.')]
+•¶Œ^:‘æ“ñ•¶Œ^
+[('The', 'DT'), ('car', 'NN'), ('could', 'MD'), ("n't", 'RB'), ('get', 'VB'), ('past', 'JJ'), ('.', '.')]
+•¶Œ^:None
+[('He', 'PRP'), ('called', 'VBD'), ('the', 'DT'), ('hospital', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('Mr', 'NNP'), ('Jones', 'NNP'), ('pointed', 'VBD'), ('to', 'TO'), ('a', 'DT'), ('field', 'NN'), ('.', '.')]
+•¶Œ^:None
+[('They', 'PRP'), ('got', 'VBD'), ('some', 'DT'), ('big', 'JJ'), ('stones', 'NNS'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('They', 'PRP'), ('made', 'VBD'), ('a', 'DT'), ('big', 'JJ'), ('cross', 'NN'), ('out', 'IN'), ('of', 'IN'), ('the', 'DT'), ('bags', 'NNS'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('There', 'EX'), ('was', 'VBD'), ('a', 'DT'), ('doctor', 'NN'), ('in', 'IN'), ('the', 'DT'), ('helicopter', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('Nobody', 'NN'), ('could', 'MD'), ('make', 'VB'), ('her', 'PRP$'), ('laugh', 'NN'), ('.', '.')]
+•¶Œ^:‘æŽl•¶Œ^
+[('Chip', 'NNP'), ('had', 'VBD'), ('an', 'DT'), ('idea', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('Biff', 'NNP'), ('put', 'VBD'), ('on', 'IN'), ('a', 'DT'), ('funny', 'JJ'), ('wig', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('She', 'PRP'), ('told', 'VBD'), ('a', 'DT'), ('funny', 'JJ'), ('joke', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('Kipper', 'NNP'), ('had', 'VBD'), ('some', 'DT'), ('joke', 'NN'), ('teeth', 'NNS'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('The', 'DT'), ('children', 'NNS'), ('ran', 'VBD'), ('into', 'IN'), ('Biff', 'NNP'), ("'s", 'POS'), ('room', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('The', 'DT'), ('magic', 'NN'), ('took', 'VBD'), ('them', 'PRP'), ('on', 'IN'), ('a', 'DT'), ('new', 'JJ'), ('adventure', 'NN'), ('.', '.')]
+•¶Œ^:‘æŽO•¶Œ^
+[('They', 'PRP'), ('saw', 'VBD'), ('a', 'DT'), ('notice', 'NN'), ('on', 'IN'), ('a', 'DT'), ('tree', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('Kipper', 'NNP'), ('had', 'VBD'), ('an', 'DT'), ('idea', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('He', 'PRP'), ('still', 'RB'), ('had', 'VBD'), ('the', 'DT'), ('joke', 'NN'), ('teeth', 'NN'), ('.', '.')]
+•¶Œ^:None
+[('The', 'DT'), ('king', 'NN'), ('put', 'VBD'), ('the', 'DT'), ('teeth', 'NN'), ('on', 'IN'), ('a', 'DT'), ('cushion', 'NN'), ('.', '.')]
+•¶Œ^:‘æ“ñ•¶Œ^
+[('There', 'EX'), ('were', 'VBD'), ('big', 'JJ'), ('fish', 'NN'), ('and', 'CC'), ('little', 'JJ'), ('fish', 'NN'), ('.', '.')]
+•¶Œ^:‘æ“ñ•¶Œ^
+[('Kipper', 'NNP'), ('liked', 'VBD'), ('the', 'DT'), ('big', 'JJ'), ('fish', 'NN'), ('in', 'IN'), ('a', 'DT'), ('tank', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('The', 'DT'), ('magic', 'NN'), ('took', 'VBD'), ('them', 'PRP'), ('under', 'IN'), ('water', 'NN'), ('.', '.')]
+•¶Œ^:‘æŽO•¶Œ^
+[('The', 'DT'), ('magic', 'JJ'), ('key', 'NN'), ('took', 'VBD'), ('them', 'PRP'), ('out', 'IN'), ('of', 'IN'), ('the', 'DT'), ('adventure', 'NN'), ('.', '.')]
+•¶Œ^:None
+[('They', 'PRP'), ('floated', 'VBD'), ('back', 'RB'), ('to', 'TO'), ('the', 'DT'), ('rocket', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('They', 'PRP'), ('saw', 'VBD'), ('one', 'CD'), ('outside', 'IN'), ('the', 'DT'), ('junk', 'NN'), ('shop', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('Dad', 'NNP'), ('looked', 'VBD'), ('at', 'IN'), ('the', 'DT'), ('old', 'JJ'), ('carpet', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('It', 'PRP'), ('was', 'VBD'), ('full', 'JJ'), ('of', 'IN'), ('dust', 'NN'), ('and', 'CC'), ('dirt', 'NN'), ('.', '.')]
+•¶Œ^:‘æ“ñ•¶Œ^
+[('The', 'DT'), ('carpet', 'NN'), ('was', 'VBD'), ('flying', 'VBG'), ('over', 'IN'), ('a', 'DT'), ('town', 'NN'), ('.', '.')]
+•¶Œ^:‘æŽO•¶Œ^
+[('I', 'PRP'), ('am', 'VBP'), ('a', 'DT'), ('hostage', 'NN'), ('in', 'IN'), ('this', 'DT'), ('palace', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('The', 'DT'), ('magic', 'NN'), ('took', 'VBD'), ('them', 'PRP'), ('back', 'RP'), ('home', 'NN'), ('.', '.')]
+•¶Œ^:‘æŽO•¶Œ^
+[('A', 'DT'), ('girl', 'NN'), ('told', 'VBD'), ('him', 'PRP'), ('a', 'DT'), ('joke', 'NN'), ('.', '.')]
+•¶Œ^:‘æŽO•¶Œ^

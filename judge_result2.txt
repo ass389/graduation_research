@@ -1,0 +1,58 @@
+[('Hisato', 'NNP'), ('lives', 'VBZ'), ('in', 'IN'), ('Nagoya', 'NNP'), ('now', 'RB'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('I', 'PRP'), ('go', 'VBP'), ('to', 'TO'), ('school', 'NN'), ('by', 'IN'), ('subway', 'JJ'), ('every', 'DT'), ('day', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('We', 'PRP'), ('arrive', 'VBP'), ('at', 'IN'), ('the', 'DT'), ('station', 'NN'), ('at', 'IN'), ('six', 'CD'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('He', 'PRP'), ('went', 'VBD'), ('to', 'TO'), ('Osaka', 'NNP'), ('on', 'IN'), ('business', 'NN'), ('yesterday', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('David', 'NNP'), ('walks', 'NNS'), ('to', 'TO'), ('school', 'NN'), ('every', 'DT'), ('morning', 'NN'), ('.', '.')]
+•¶Œ^:None
+[('There', 'EX'), ('were', 'VBD'), ('five', 'CD'), ('classic', 'JJ'), ('cars', 'NNS'), ('in', 'IN'), ('the', 'DT'), ('garage', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('Our', 'PRP$'), ('cat', 'NN'), ('is', 'VBZ'), ('very', 'RB'), ('cute', 'JJ'), ('.', '.')]
+•¶Œ^:‘æ“ñ•¶Œ^
+[('My', 'PRP$'), ('father', 'NN'), ('is', 'VBZ'), ('a', 'DT'), ('vet', 'NN'), ('.', '.')]
+•¶Œ^:‘æ“ñ•¶Œ^
+[('Your', 'PRP$'), ('dream', 'NN'), ('will', 'MD'), ('come', 'VB'), ('true', 'JJ'), ('.', '.')]
+•¶Œ^:‘æ“ñ•¶Œ^
+[('That', 'DT'), ('sounds', 'VBZ'), ('good', 'JJ'), ('!', '.')]
+•¶Œ^:‘æ“ñ•¶Œ^
+[('They', 'PRP'), ('remained', 'VBD'), ('good', 'JJ'), ('friends', 'NNS'), ('all', 'DT'), ('their', 'PRP$'), ('lives', 'NNS'), ('.', '.')]
+•¶Œ^:‘æ“ñ•¶Œ^
+[('What', 'WP'), ('is', 'VBZ'), ('this', 'DT'), ('?', '.')]
+•¶Œ^:None
+[('Are', 'NNP'), ('you', 'PRP'), ('happy', 'JJ'), ('?', '.')]
+•¶Œ^:None
+[('We', 'PRP'), ('study', 'VBP'), ('philosophy', 'NN'), ('.', '.')]
+•¶Œ^:‘æŽO•¶Œ^
+[('We', 'PRP'), ('play', 'VBP'), ('baseball', 'NN'), ('almost', 'RB'), ('every', 'DT'), ('day', 'NN'), ('.', '.')]
+•¶Œ^:‘æŽO•¶Œ^
+[('Robert', 'NNP'), ('teaches', 'NNS'), ('physics', 'NNS'), ('at', 'IN'), ('this', 'DT'), ('college', 'NN'), ('.', '.')]
+•¶Œ^:None
+[('Two', 'CD'), ('years', 'NNS'), ('ago', 'IN'), ('I', 'PRP'), ('ran', 'VBD'), ('the', 'DT'), ('100', 'CD'), ('meters', 'NNS'), ('in', 'IN'), ('12.3', 'CD'), ('seconds', 'NNS'), ('.', '.')]
+•¶Œ^:None
+[('I', 'PRP'), ('caught', 'VBD'), ('trout', 'RB'), ('by', 'IN'), ('the', 'DT'), ('dozen', 'NN'), ('in', 'IN'), ('that', 'DT'), ('reservoir', 'NN'), ('yesterday', 'NN'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^
+[('I', 'PRP'), ('gave', 'VBD'), ('my', 'PRP$'), ('wife', 'NN'), ('a', 'DT'), ('book', 'NN'), ('.', '.')]
+•¶Œ^:‘æŽl•¶Œ^
+[('Do', 'VB'), ('you', 'PRP'), ('mean', 'VB'), ('these', 'DT'), ('shoes', 'NNS'), ('?', '.')]
+•¶Œ^:None
+[('Matsunaga', 'NNP'), ('teaches', 'VBZ'), ('us', 'PRP'), ('mathematics', 'NNS'), ('.', '.')]
+•¶Œ^:‘æŽO•¶Œ^
+[('The', 'DT'), ('police', 'NN'), ('asked', 'VBD'), ('him', 'PRP'), ('many', 'JJ'), ('questions', 'NNS'), ('about', 'IN'), ('the', 'DT'), ('case', 'NN'), ('.', '.')]
+•¶Œ^:‘æŒÜ•¶Œ^
+[('The', 'DT'), ('injury', 'NN'), ('caused', 'VBD'), ('him', 'PRP'), ('great', 'JJ'), ('pain', 'NN'), ('for', 'IN'), ('many', 'JJ'), ('weeks', 'NNS'), ('.', '.')]
+•¶Œ^:‘æŒÜ•¶Œ^
+[('He', 'PRP'), ('bought', 'VBD'), ('his', 'PRP$'), ('wife', 'NN'), ('a', 'DT'), ('beautiful', 'JJ'), ('dress', 'NN'), ('on', 'IN'), ('their', 'PRP$'), ('anniversary', 'NN'), ('.', '.')]
+•¶Œ^:‘æŽO•¶Œ^
+[('His', 'PRP$'), ('words', 'NNS'), ('made', 'VBN'), ('us', 'PRP'), ('angry', 'JJ'), ('.', '.')]
+•¶Œ^:‘æŒÜ•¶Œ^
+[('The', 'DT'), ('news', 'NN'), ('made', 'VBD'), ('us', 'PRP'), ('happy', 'JJ'), ('.', '.')]
+•¶Œ^:‘æŒÜ•¶Œ^
+[('The', 'DT'), ('news', 'NN'), ('made', 'VBD'), ('us', 'PRP'), ('confused', 'VBD'), ('.', '.')]
+•¶Œ^:‘æŒÜ•¶Œ^
+[('They', 'PRP'), ('named', 'VBD'), ('their', 'PRP$'), ('son', 'NN'), ('Stephen', 'NNP'), ('after', 'IN'), ('his', 'PRP$'), ('grandfather', 'NN'), ('.', '.')]
+•¶Œ^:None
+[('I', 'PRP'), ('have', 'VBP'), ('often', 'RB'), ('found', 'VBN'), ('his', 'PRP$'), ('advice', 'NN'), ('very', 'RB'), ('helpful', 'JJ'), ('.', '.')]
+•¶Œ^:‘æˆê•¶Œ^

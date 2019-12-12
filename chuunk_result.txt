@@ -1,0 +1,248 @@
+0:(S
+  (NP Snow/NNP)
+  fell/VBD
+  heavily/RB
+  all/RB
+  (NP night/NN)
+  (PP throughout/IN (NP the/DT Tohoku/NNP region/NN))
+  ./.)
+1:(S (NP Time/NNP flies/NNS) (PP like/IN (NP an/DT arrow.　/NN)))
+2:(S
+  There/EX
+  were/VBD
+  (NP five/CD classic/JJ cars/NNS)
+  (PP in/IN (NP the/DT garage/NN))
+  ./.)
+3:(S
+  (NP My/PRP$ aunt/NN)
+  lives/VBZ
+  alone/RB
+  (PP in/IN (NP Kyoto/NNP))
+  ./.)
+4:(S
+  We/PRP
+  arrived/VBD
+  (PP at/IN (NP the/DT station/NN))
+  (PP at/IN (NP six/CD))
+  ./.)
+5:(S
+  (NP Paul/NNP)
+  has/VBZ
+  lived/VBN
+  (PP in/IN (NP that/DT apartment/NN))
+  (PP near/IN (NP my/PRP$ house/NN))
+  for/IN
+  (PP over/IN (NP two/CD years/NNS))
+  ./.)
+6:(S
+  (NP The/DT rain/NN)
+  stopped/VBD
+  (NP an/DT hour/NN)
+  (PP before/IN (NP dawn/NN))
+  and/CC
+  (NP the/DT moon/NN)
+  slipped/VBD
+  out/IN
+  (PP of/IN (NP the/DT thick/NN cllouds/NN))
+  ./.)
+7:(S
+  (NP A/DT single/JJ star/NN)
+  moved　slowly/RB
+  (PP across/IN (NP the/DT sky/NN))
+  ./.)
+8:(S
+  There/EX
+  is/VBZ
+  (NP widespread/JJ dissatisfaction/NN)
+  (PP with/IN (NP the/DT))
+  existing/VBG
+  (NP tax/NN system/NN)
+  ./.)
+9:(S
+  There/EX
+  are/VBP
+  (NP a/DT great/JJ variety/NN)
+  (PP of/IN (NP cultures/NNS))
+  and/CC
+  (NP races/NNS)
+  (PP among/IN (NP the/DT island/NN))
+  peoples/VBZ
+  (NP the/DT Pacific/NNP)
+  ./.)
+10:(S
+  (NP The/DT weather/NN)
+  turned/VBD
+  (NP cold/JJ)
+  (PP at/IN (NP the/DT end/NN))
+  (PP of/IN (NP October/NNP))
+  ./.)
+11:(S
+  We/PRP
+  felt/VBD
+  cold/VBN
+  (PP at/IN (NP the/DT top/NN))
+  (PP of/IN (NP the/DT mountain/NN))
+  ./.)
+12:(S (NP The/DT stew/NN) looks/VBZ (NP delicious/JJ) ./.)
+13:(S (NP Ryo/NNP) became/VBD (NP a/DT hero/NN overnight/NN) ./.)
+14:(S
+  (NP My/PRP$ grandmother/NN)
+  was/VBD
+  (NP a/DT lawyer/NN)
+  before/IN
+  ./.)
+15:(S
+  (NP Nami/NNP)
+  is/VBZ
+  very/RB
+  (NP kind/NN)
+  to/TO
+  (NP everyone/NN)
+  ./.)
+16:(S (NP Our/PRP$ boss/NN) gets/VBZ (NP angry/JJ) easily/RB ./.)
+17:(S
+  He/PRP
+  got/VBD
+  very/RB
+  (NP angry/JJ)
+  (PP with/IN (NP the/DT person/NN))
+  living/VBG
+  (NP next/JJ)
+  to/TO
+  him/PRP
+  ./.)
+18:(S (NP Most/JJS children/NNS) are/VBP very/RB (NP curious/JJ) ./.)
+19:(S We/PRP are/VBP very/RB (NP poor/JJ) ./.)
+20:(S I/PRP like/VBP (NP dogs/NNS) ./.)
+21:(S
+  Johnpointed/VBN
+  (NP his/PRP$ orefinger/NN)
+  (PP at/IN (NP Arthur/NNP))
+  ./.)
+22:(S
+  He/PRP
+  explained/VBD
+  (NP the/DT difficulty/NN)
+  to/TO
+  (NP his/PRP$ wife/NN)
+  ./.)
+23:(S
+  (NP John/NNP)
+  pointed/VBD
+  (NP his/PRP$ forefinger/NN)
+  (PP at/IN (NP Arthur/NNP))
+  ./.)
+24:(S
+  (NP Jurina/NNP)
+  reached/VBD
+  (NP the/DT theater/NN)
+  (PP at/IN (NP five/CD))
+  ./.)
+25:(S
+  (NP Our/PRP$ teacher/NN)
+  resembles/VBZ
+  (NP a/DT famous/JJ actor/NN)
+  ./.)
+26:(S
+  We/PRP
+  got/VBD
+  (NP some/DT information/NN)
+  (PP about/IN (NP the/DT accident/NN))
+  ./.)
+27:(S
+  (NP My/PRP$ daughter/NN)
+  married/VBD
+  (NP a/DT famous/JJ writer/NN)
+  ./.)
+28:(S
+  I/PRP
+  wrote/VBD
+  (NP a/DT paper/NN)
+  (PP on/IN (NP global/JJ warming/NN))
+  ./.)
+29:(S
+  We/PRP
+  discussed/VBD
+  (NP the/DT problem/NN)
+  (PP of/IN (NP racial/JJ prejudices/NNS))
+  ./.)
+30:(S They/PRP meant/VBP us/PRP (NP no/DT harm/NN) ./.)
+31:(S He/PRP denied/VBD (NP her/PRP$ nothing/NN) ./.)
+32:(S
+  (NP Susan/NNP)
+  forgave/VBP
+  him/PRP
+  (NP his/PRP$ rude/NN behavior/NN)
+  (PP at/IN (NP the/DT party/NN))
+  ./.)
+33:(S
+  (NP My/PRP$ parents/NNS)
+  bought/VBD
+  me/PRP
+  (NP an/DT Ipad/NNP)
+  ./.)
+34:(S
+  (NP Tomohiro/NN)
+  showed/VBD
+  us/PRP
+  (NP a/DT photo/NN)
+  (PP of/IN (NP his/PRP$ girlfriend/NN))
+  ./.)
+35:(S
+  (NP Our/PRP$ teacher/NN)
+  gave/VBD
+  me/PRP
+  (NP an/DT interesting/JJ book/NN)
+  ./.)
+36:(S (NP My/PRP$ bank/NN) lent/VBD me/PRP (NP some/DT money/NN) ./.)
+37:(S
+  She/PRP
+  lent/VBD
+  me/PRP
+  (NP her/PRP$ favorite/JJ comic/JJ books/NNS)
+  ./.)
+38:(S (NP Takao/NNP) taught/VBD us/PRP (NP Austalian/JJ history/NN) ./.)
+39:(S We/PRP offered/VBD (NP Ed/NNP a/DT nice/JJ job/NN) ./.)
+40:(S We/PRP named/VBD (NP the/DT cute/JJ turtle/NN Kame-Taro/NNP) ./.)
+41:(S
+  (NP Most/JJS students/NNS)
+  must/MD
+  find/VB
+  (NP this/DT book/NN useful/JJ)
+  ./.)
+42:(S (NP The/DT story/NN) made/VBD me/PRP (NP sad/JJ) ./.)
+43:(S They/PRP think/VBP him/PRP (NP a/DT genius/NN) ./.)
+44:(S
+  (NP Most　students/NNS)
+  must/MD
+  find/VB
+  (NP this/DT book/NN useful/JJ)
+  ./.)
+45:(S You/PRP shoud/VBP keep/VB (NP the/DT windows/NNS) closed/VBD ./.)
+46:(S
+  He/PRP
+  calls/VBZ
+  (NP his/PRP$ wife/NN Beth/NNP)
+  (PP at/IN (NP home/NN))
+  ./.)
+47:(S
+  We/PRP
+  elected/VBD
+  (NP Mr.Johnson/NNP chairman/NN)
+  (PP of/IN (NP the/DT committee/NN))
+  ./.)
+48:(S
+  You/PRP
+  will/MD
+  find/VB
+  (NP this/DT bed/NN)
+  quite/RB
+  (NP comfortable/JJ)
+  ./.)
+49:(S
+  (NP The/DT mere/JJ sight/NN)
+  (PP of/IN (NP the/DT blood/NN))
+  made/VBD
+  him/PRP
+  sick/VB
+  ./.)

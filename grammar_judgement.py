@@ -77,7 +77,7 @@ grammer = r"""
    CLAUSE: {<NP><VP>}
 """
 
-f =open("test2.txt",'r')
+f =open("test.txt",'r')
 for line in f:
     input_text =line
     text =nltk.word_tokenize(str(input_text))

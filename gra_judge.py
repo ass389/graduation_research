@@ -31,7 +31,9 @@ def judgemnt(text):
             sentence_p.append('V')
             if re.search('JJ.?',text[3][1]):
                 sentence_p.append('C')
-            elif re.search('RB|DT',text[3][1]) and re.search('JJ|NN',text[4][1]):
+            elif re.search('VBG',text[3][1]) and len(text)==4:
+                sentence_p.append('C')
+            elif re.search('RB|DT|TO',text[3][1]) and re.search('JJ|NN|VB',text[4][1]):
                 sentence_p.append('C')
         #第三文型
             elif re.search('NN.?|PRP.?|VBG',text[3][1]):
@@ -45,6 +47,8 @@ def judgemnt(text):
         elif re.search('MD|VB.?',text[2][1]) and re.search('VB.?',text[3][1]):
             sentence_p.append('V')
             if re.search('JJ.?',text[4][1]):
+                sentence_p.append('C')
+            elif re.search('VBG',text[4][1]) and len(text)==5:
                 sentence_p.append('C')
         #第三文型
             elif re.search('NN.?|PRP.?|VBG',text[4][1]) and re.search('NN',text[5][1]):
@@ -71,6 +75,8 @@ def judgemnt(text):
         if re.search('VB.?',text[1][1]):
             sentence_p.append('V')
             if re.search('JJ.?',text[2][1]):
+                sentence_p.append('C')
+            elif re.search('VBG',text[2][1]) and len(text)==3:
                 sentence_p.append('C')
         #Oの判定 第二語
             elif re.search('NN.?|PRP.?|VBG',text[2][1])and re.search('NN',text[3][1]):
@@ -100,6 +106,8 @@ def judgemnt(text):
             sentence_p.append('V')
             #第二文型
             if re.search('JJ.?',text[3][1]):
+                sentence_p.append('C')
+            elif re.search('VBG',text[3][1]) and len(text)==4:
                 sentence_p.append('C')
         #第三文型
             elif re.search('NN.?|PRP.?|VBG',text[3][1]):
@@ -147,16 +155,22 @@ def ie_preprocess(document):
     sentence = [nltk.word_tokenize(sent) for sent in sentences]
     sentences =[nltk.pos_tag(sent) for sent in sentences]
 
-f =open("test.txt",'r')
-for line in f:
-    input_text =line
-    text =nltk.word_tokenize(str(input_text))
-    tag_text =nltk.pos_tag(text)
-    sentence =''
-    # cp =nltk.RegexpParser(grammar,loop=2)
-    # result = cp.parse(tag_text)
-    # t =nltk.Tree.fromstring(str(result))
-    sentence =judgemnt(tag_text)
-    print('トークン化した文章:',nltk.pos_tag(text))
-    print('文型:',sentence)
-    # print(sentence)
+
+with open('picture_judge_result.txt',mode ='w') as w:
+    f =open("picture_book_test.txt",'r')
+    for line in f:
+        input_text =line
+        text =nltk.word_tokenize(str(input_text))
+        tag_text =nltk.pos_tag(text)
+        sentence =''
+        # cp =nltk.RegexpParser(grammar,loop=2)
+        # result = cp.parse(tag_text)
+        # t =nltk.Tree.fromstring(str(result))
+        sentence =judgemnt(tag_text)
+        print('トークン化した文章:',nltk.pos_tag(text))
+        print('文型:',sentence)
+        # print(sentence)
+        w.write(str(nltk.pos_tag(text))+'\n')
+        w.write('文型:'+str(sentence)+'\n')
+
+w.close()
